@@ -1,0 +1,13 @@
+
+                   Create Users and store them 
+                   in MongoDB
+
+    Apollo Server  ---------------------------------->       MongoDB Atlas
+                   
+                   Hash passwords when storing them    Database used to hold users
+    
+    User                                               We will use Mongoose to create models  
+    LoginInput                                         for our User type to be stored
+    RegisterInput                                      
+    RegisterUser                                       "username", "password", "email", "token"
+    Login User
