@@ -1,0 +1,46 @@
+.result {
+    text-align: center;
+}
+
+h3 {
+    font-size: 24px;
+    letter-spacing: 1.4px;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+span {
+    color: rgb(202, 92, 19);
+    font-size: 22;
+}
+
+table {
+    width: auto; 
+    max-width: 600px; 
+    margin: 50px auto 20px;
+    position: relative;
+    left: -25px;
+    border-collapse: collapse;
+    border-spacing: 0; 
+}
+
+th, td {
+    padding: 8px; 
+    border-bottom: 1px solid; 
+}
+
+th {
+    font-weight: bold; 
+}
+
+td:nth-child(1) {
+    width: 50px; 
+}
+
+td:nth-child(3) {
+    text-align: right; 
+}

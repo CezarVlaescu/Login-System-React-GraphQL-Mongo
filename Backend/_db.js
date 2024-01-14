@@ -8,7 +8,11 @@ const MONGODB = "mongodb://localhost:27017/LoginDatabase";
 
 const server = new ApolloServer({
     typeDefs,
-    resolvers
+    resolvers,
+    cors: {
+        origin: '*',
+        credentials: true
+    }
 });
 
 mongoose.connect(MONGODB, {useNewUrlParser: true})

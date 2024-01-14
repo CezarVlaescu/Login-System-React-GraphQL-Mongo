@@ -16,7 +16,7 @@ input RegisterInput {
     username: String!
     email: String!
     password: String!
-    confirmPasword: String!
+    confirmPassword: String!
 }
 
 input LoginInput {
